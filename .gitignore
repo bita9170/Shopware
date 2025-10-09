@@ -18,3 +18,21 @@
 /install.lock
 /public/asset-manifest.json
 ###< shopware/core ###
+
+
+# === Custom developer rules ===
+# IDE settings
+.vscode/
+.idea/
+
+# Node / frontend builds
+/node_modules/
+build/
+
+# Docker / DDEV
+.ddev/
+docker-compose*
+*.log
+
+# Composer lock (optional for open plugins)
+composer.lock
