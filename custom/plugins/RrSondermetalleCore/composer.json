@@ -1,0 +1,27 @@
+{
+  "name": "rr/sondermetalle-core",
+  "description": "Base plugin for RR Sondermetalle project",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bita Sadeghi",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "shopware/core": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "RrSondermetalleCore\\RrSondermetalleCore",
+    "label": {
+      "en-GB": "RR Sondermetalle Core",
+      "de-DE": "RR Sondermetalle Core"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "RrSondermetalleCore\\": "src/"
+    }
+  }
+}
