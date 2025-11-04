@@ -48,7 +48,7 @@
             "repo": "github.com/shopware/recipes",
             "branch": "main",
             "version": "6.7",
-            "ref": "af7120002d51d12596e1a14b4fa51da29d599429"
+            "ref": "469075e215817ebc0a52d1dcc77a60a226a2b312"
         },
         "files": [
             "bin/.htaccess",
@@ -111,7 +111,7 @@
         }
     },
     "symfony/flex": {
-        "version": "2.8",
+        "version": "2.9",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
